@@ -42,13 +42,12 @@
 ![Production_job_1](Screenshots/Production1.png)
 
  * Next go to the PollSCM and enter 5 starts with space in between them. This means in each minutes our Jenkins will keep checking the GitHub master branch and whenever any thing gets updated it will fetch that data. Next command run on the RHEL8 by jenkins which stores the master branch data into the production folder. Here is the command used in the execute shell of Production :
- https://github.com/raktim00/DevOps_Home_Work/blob/master/Production_execute_shell_code
  
 ![Production_job_2](Screenshots/Production2.png)
 
 ### 4. Creating the Production Deployment Job in Jenkins :
 
- * Here at first we have to select build trigger and then "Build after other project build" option and have to provide the production job name. This means as soon as Production Job completes The Deployment Job will start automatically. Next we have to provide a Linux code which gonna start our deployment docker environment. In this code we are allowing the docker container to fetch the data from our production folder where we are pulling our master branch data. Next we are allowing PATing so that we can connect to the container from outside of RHEL8 using port number 8082. Here is the command used in the execute shell of Production Deployment : https://github.com/raktim00/DevOps_Home_Work/blob/master/Production_Deploy_Execute_shell_code
+ * Here at first we have to select build trigger and then "Build after other project build" option and have to provide the production job name. This means as soon as Production Job completes The Deployment Job will start automatically. Next we have to provide a Linux code which gonna start our deployment docker environment. In this code we are allowing the docker container to fetch the data from our production folder where we are pulling our master branch data. Next we are allowing PATing so that we can connect to the container from outside of RHEL8 using port number 8082. Here is the command used in the execute shell of Production Deployment : 
  
 ![Production_deployment](Screenshots/Prod_deploy.png)
 
@@ -76,8 +75,8 @@
  
 ![Merge_1](Screenshots/merge1.png)
 
- * Next give anything in build but remember that should execute otherwise jenkins not gonna work post-build which will do the merging. Here is the command used in the execute shell of Merging : https://github.com/raktim00/DevOps_Home_Work/blob/master/Allow_merge_execute_shell_code 
- 
+ * Next give anything in build but remember that should execute otherwise jenkins not gonna work post-build which will do the merging. Here is the command used in the execute shell of Merging :
+ * 
 ![Merge_2](Screenshots/merge2.png)
 
  * Lastly select the post-build which gonna do the merging and fill the below mentioned boxes.
@@ -135,4 +134,4 @@
  #### Second thing we can use more great tools like Ansible Scripting to create more great environment.
  #### Third we can create distributed setup on our own and can host our website on our own.
 
-## Thank you so much Vimal Sir for teaching us these kinds of great technologies.
+## Thank you so much Vimal SIR {AICTE-Eduskills} for teaching us these kinds of great technologies.
