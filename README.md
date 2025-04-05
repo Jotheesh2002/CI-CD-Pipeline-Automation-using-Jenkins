@@ -1,4 +1,4 @@
-# AWS Virtual Cloud Intership Assignment ( by Jotheeshwaran V)
+# AWS Virtual Cloud Internship Assignment ( by Jotheeshwaran V)
 
 
 ## Work Description :
