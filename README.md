@@ -1,6 +1,5 @@
-# DevOps_Home_Work (given by Mr. Vimal Daga sir)
+# DevOps_Home_Work ( by Jotheeshwaran V)
 
-## Video Demonstration : https://youtu.be/HR_qIhqFyb8
 
 ## Work Description :
 
